@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>signup</title>
+        <link rel="icon" href=".//favicon.png" type="image/png">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .signup_form .alignment{
+                padding-left: 70px;
+                width: 360px;
+                height: 25px;
+                border-radius: 50px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="topnav">
+            <nav>
+                    <a id="ho" href="home.html">Home</a>
+            </nav>
+        </div>
+        <div id="box">
+
+                <form>
+                    <section id="sec">            
+                        <p class="topPara">_      _</p>
+                        <p class="topPara">Wellcome Back!!!</p>
+                        <br>
+                        <table class="signup_form" >
+                            <tr >
+                                <td class="alignment">Name: <br><input class="alignment" type="text" required></td>
+                
+                            </tr>
+                            <tr>
+                                <td class="alignment">Email: <br><input class="alignment" type="email" required></td>
+                            </tr>
+                            <tr>
+                                <td class="alignment">Password: <br><input class="alignment"type="text" id="p1" required></td>
+                            </tr>
+                            <tr>
+                                <td class="alignment">Confirm Password: <br><input class="alignment" type="text" id="p2" required></td>
+                            </tr>
+                        </table>
+                        <button onclick="password_validation()">Sign in</button>
+                        <br>
+                        Or
+                        <br>
+                        Connect With
+                        <br>
+                        <br>
+                        <div style="align-items: center;">
+                            <a href="" class="fa fa-google"></a>
+                            <a href="" class="fa fa-pinterest"></a>
+                            <a href="" class="fa fa-facebook"></a>
+                            <a href="" class="fa fa-twitter"></a>
+                        </div>
+                        <br>
+                        Have An Account?
+                        <br>
+                        <a href="login.html">Log in</a>
+                </section>
+                </form>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2023 LensLoom. All rights reserved.</p>
+            <p>Over 4.5 million+ high quality stock images shared by our talented community</p>
+        </footer>
+        <script>
+            function password_validation()
+            {
+                var p1=document.getElementById("p1").value;
+                var p2=document.getElementById("p2").value;
+                if(p1!=p2)
+                {
+                    alert("The passwords do not match.Please enter the same password in both fields");
+                }
+            }
+        </script>
+    </body>
+</html>

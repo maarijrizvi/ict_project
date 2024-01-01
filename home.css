@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'poppins';
+    margin: 0;
+  
+}
+.topnav{
+    background: linear-gradient(#3052c1, #a937a2);
+    overflow: hidden;
+
+}
+header{
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.MGjzwtZRhfSWS9yMYEzgBwHaEo&pid=Api&P=0&h=220');
+    background-size: cover;
+}
+.abc{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.topnav a button{
+    transition: transform 0.3s ease-in-out ;
+}
+.topnav a:hover{
+    background: linear-gradient(#cb8fc7,#8899d2);
+    color: black;
+    border-radius: 20px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.topnav button:hover{
+    background: linear-gradient(#cb8fc7,#8899d2);
+    color: black;
+    border-radius: 20px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.topnav input[type=text]{
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    width: 500px;
+    text-align: center;
+}
+ #search_btn{
+    margin-left: 0px;
+    width: 60px;
+    height: 35px;
+    border-radius:10px ;
+}
+/* .topnav button{
+    border-radius: 20px;
+} */
+.footer{
+    background-color:rgb(39, 42, 68);
+    color: white;
+    left: 0;
+    bottom: 0;
+    float: bottom;
+    /* height: 200px; */
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.footer p{
+    font-size: 15px;
+}
+section{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.center{
+    display: grid;
+    align-content: center;
+}
+.use{
+    float: right;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.head{
+    width: 200px;
+    height: 200px;
+}
+p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 20;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+#list {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -1.875em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1.875em;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 1.875em;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 1.875em;
+    column-fill: auto;
+}
+.item {
+    margin-bottom: 1.875em;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+}

@@ -1,0 +1,83 @@
+
+.topnav{
+    text-align: center;
+    padding: 5px;
+}
+#box{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.MGjzwtZRhfSWS9yMYEzgBwHaEo&pid=Api&P=0&h=220');
+    background-size: cover;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+}
+.signup_form{
+    /* text-align: center; */
+    color: #f2f2f2;
+}
+.signup_form input{
+    border-radius: 8px;
+    flex: 1;
+}
+#sec button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background: linear-gradient(#78408a,#39509a);
+    transition: transform 0.3s ease-in-out ;
+    color: #f2f2f2;
+    width: 65px;
+}
+#sec button:hover{
+    transform: scale(1.1);
+}
+#sec{
+    width: 500px;
+    height:550px;
+    margin: auto;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.5);
+    background: linear-gradient(#ba8bc9,#7f8dbc);
+    color: #f2f2f2;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    transition: transform 0.3s ease-in-out ;
+}
+.fa:hover {
+    background: linear-gradient(#cb8fc7,#8899d2);
+    transform: scale(1.1);
+}
+  .fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+ a{
+    margin-right: 15px;
+}
+#ho{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+.topPara{
+    margin: 0px;
+}
